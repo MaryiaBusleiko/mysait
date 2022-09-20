@@ -1,0 +1,25 @@
+.icon{
+   display: flex;
+   align-items: center;
+}
+
+.icon::before{
+height: 30px;
+width: 30px;
+background-image: url(иконки/icons8-реддит-64.png);
+display: inline-block;
+background-size: cover;
+content: ' ';
+}
+ы
+.icon:hover::before{
+background-color: rgb(85, 5, 72);
+}
+
+.icon.Delight::before{
+background-image: url(иконки/icons8-картина-64.png);
+}
+
+.icon.search::before{
+   background-image: url(иконки/icons8-поиск-64.png);
+}
